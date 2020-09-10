@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+ul#album{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    float: left;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 10px rgba(0,0,0, 1);
+    -webkit-transition: all 0.4s ease-in;
+}
+
+ul#album li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9px;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span{
+    opacity: 1;
+}
+
+ul#album li#photo01{
+    background: url('../_img/dinossauro.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album li#photo01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#photo02{
+    background: url('../_img/dinossauro\ 02.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album li#photo02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#photo03{
+    background: url('../_img/cachoeira.jfif') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album li#photo03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px
+}
+
+ul#album li#photo04{
+    background: url('../_img/sol.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album li#photo04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
